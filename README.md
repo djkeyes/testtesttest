@@ -15,7 +15,7 @@ But we're going to do that anyway. What follows is a step-by-step of how to repl
 
 ## Setting up this repo in Eclipse
 
-This was written for eclipse Indigo on ubuntu, but it should be similar for any setup.
+This was written for eclipse Indigo on ubuntu linux, but it should be similar for any setup.
 
 First, make sure you have the eGit plugin for eclipse. It's the momst popular git eclipse plugin. You probably already have it.
 
@@ -23,7 +23,7 @@ Next, clone this repo to your system:
  - If the Git Repositories view isn't open, open it. Window > Show View > Other... > Git > Git Repositories
  - In the Git Repositories view, click 'Clone a Git Repository and add the clone to this view'. Paste in the git http url, and keep all the default settings. You can also use 'Add an existing local repository' if you've already cloned the project.
 
-By default, this clones the project to /home/USERNAME/git/testtesttest, but you might have put it somewhere else. Remeber the location.
+By default, this clones the project to /home/USERNAME/git/testtesttest (or a similar directory if you're not using Ubuntu), but you might have put it somewhere else. Remeber the location.
 
 Now create an empty java project inside of the repo. In the Java perspective, that's File > New > Java Project. Name it whatever you want, but uncheck 'Use default location'. As the Location, use /home/USERNAME/git/testtesttest/java, or your own path to the project. Here, I appended the directory 'java', because I was planning on having a couple different projects in a couple different languages.
 
